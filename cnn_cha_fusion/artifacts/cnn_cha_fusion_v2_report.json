@@ -1,0 +1,37 @@
+{
+  "train_rows": 2108,
+  "test_rows": 528,
+  "threshold_tuning_rows": 212,
+  "monitor_rows": 210,
+  "threshold_tuning_split": "calibration_only",
+  "mci_weight_boost": 1.25,
+  "target_recall_mci": 0.7,
+  "target_recall_control": 0.7,
+  "selection_mode": "fallback_objective_calibration_split",
+  "best_threshold": 0.18,
+  "calib_recall_mci": 0.7547169811320755,
+  "calib_recall_control": 0.660377358490566,
+  "calib_recall_gap": 0.09433962264150952,
+  "calib_precision_mci": 0.6896551724137931,
+  "calib_balanced_accuracy": 0.7075471698113207,
+  "calib_macro_f1": 0.7068950138257069,
+  "monitor_recall_mci": 0.8454545454545455,
+  "monitor_recall_control": 0.66,
+  "test_loss_raw": 0.5920717716217041,
+  "test_accuracy_raw_0_5": 0.7537878751754761,
+  "test_mci_precision": 0.704225352112676,
+  "test_mci_recall": 0.7518796992481203,
+  "test_control_recall": 0.6793893129770993,
+  "confusion_matrix": [
+    [
+      178,
+      84
+    ],
+    [
+      66,
+      200
+    ]
+  ],
+  "training_curve_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\cnn_cha_fusion_v2_training_curves.png",
+  "confusion_matrix_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\cnn_cha_fusion_v2_confusion_matrix.png"
+}

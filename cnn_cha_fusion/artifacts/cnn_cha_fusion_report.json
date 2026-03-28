@@ -1,0 +1,9 @@
+{
+  "train_rows": 3162,
+  "test_rows": 792,
+  "voice_feature_count": 18,
+  "test_loss": 1.6866098642349243,
+  "test_accuracy": 0.4962121248245239,
+  "model_path": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\cnn_cha_fusion_final.keras",
+  "paired_dataset_path": "E:\\ML\\silero-python\\cnn_cha_fusion\\data\\paired_image_cha_dataset_strict_split.csv"
+}
