@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+scikit-learn==1.5.1
+pandas==2.2.2
+numpy==1.23.5
+joblib==1.4.2
+Pillow==11.0.0
+tensorflow==2.10.0
+keras==2.10.0
+h5py==3.14.0
+protobuf==3.19.6
