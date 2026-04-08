@@ -1,0 +1,37 @@
+{
+  "best_model_by_macro_f1": "Voice ExtraTrees",
+  "fusion_metrics": {
+    "model": "Fusion CNN+CHA",
+    "accuracy": 0.7424242424242424,
+    "precision_mci": 0.8571428571428571,
+    "recall_control": 0.9007633587786259,
+    "recall_mci": 0.5864661654135338,
+    "f1_mci": 0.6964285714285714,
+    "macro_f1": 0.7363721804511278,
+    "balanced_accuracy": 0.7436147620960798,
+    "dice_mci": 0.6964285714285714,
+    "roc_auc": 0.8398811915284395,
+    "average_precision": 0.8713781899489328,
+    "brier_score": 0.15837775874055934,
+    "r2": 0.3664526343345642,
+    "mape": 32.66305324614496,
+    "mse": 0.1583777666091919,
+    "rmse": 0.3979670421142835,
+    "mae": 0.2956249415874481,
+    "tn": 236,
+    "fp": 26,
+    "fn": 110,
+    "tp": 156
+  },
+  "artifact_files": {
+    "actual_vs_predicted_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_actual_vs_predicted_fusion.png",
+    "probability_distribution_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_probability_distribution_by_class.png",
+    "roc_pr_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_roc_pr_comparison.png",
+    "calibration_plot": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_fusion_calibration_plot.png",
+    "benchmark_csv": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_benchmark_extended_comparison.csv",
+    "benchmark_md": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_benchmark_extended_comparison.md",
+    "calibration_bins_csv": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_fusion_calibration_bins.csv",
+    "patient_summary_csv": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_patient_level_prediction_summary.csv",
+    "error_taxonomy_csv": "E:\\ML\\silero-python\\cnn_cha_fusion\\artifacts\\paper_error_taxonomy_extended.csv"
+  }
+}
